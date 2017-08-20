@@ -40,8 +40,8 @@ if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
 $mobile = 13156956520;
 $code = 123;
 $c = new TopClient;
-$c->appkey = "23660835";
-$c->secretKey = "0255455d3573d91471530603a9d6d7a9";
+$c->appkey = "";
+$c->secretKey = "";
 var_dump($c);
 $req = new \Taobaotop\AlibabaAliqinFcSmsNumSendRequest;
 $req->setExtend($code);

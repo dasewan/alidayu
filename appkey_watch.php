@@ -110,8 +110,8 @@ class Jdl
         $mobile = 13156956520;
         $code = $a;
         $c = new Taobaotop\TopClient;
-        $c->appkey = "23660835";
-        $c->secretKey = "0255455d3573d91471530603a9d6d7a9";
+        $c->appkey = "";
+        $c->secretKey = "";
         $req = new Taobaotop\request\AlibabaAliqinFcSmsNumSendRequest;
         $req->setExtend($code);
         $req->setSmsType("normal");
